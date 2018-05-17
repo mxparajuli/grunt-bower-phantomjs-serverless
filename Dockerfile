@@ -13,8 +13,3 @@ RUN \
   npm install -g grunt-cli && \
   npm install -g bower && \
   npm install -g serverless
-
-ADD package.json /tmp/package.json
-ADD .npmrc /tmp/.npmrc
-
-RUN cd /tmp && npm install
