@@ -1,3 +1,3 @@
-FROM docker pull mhart/alpine-node
+FROM mhart/alpine-node
 
 RUN npm install -g grunt-cli bower serverless
